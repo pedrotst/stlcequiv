@@ -1,5 +1,6 @@
 # Dependencies
-Install mathcomp
+This project depends on:
+- mathcomp
 
 ## By using upam
 

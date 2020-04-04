@@ -1,0 +1,4 @@
+-R . Log
+
+./theory/logicalrelations.v
+./theory/metatheory.v

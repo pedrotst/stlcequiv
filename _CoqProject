@@ -1,4 +1,4 @@
--R . Log
+-Q ./theory Stlc
 
-./theory/logicalrelations.v
-./theory/metatheory.v
+./theory/Stlc.v
+./theory/Metatheory.v

@@ -1,4 +1,4 @@
-Require Import Log.logicalrelations.
+Require Import Stlc.Stlc.
 
 Lemma lc_n_Sn : forall t n,
     lc_at t n -> lc_at t n.+1.
@@ -27,8 +27,8 @@ Fixpoint openall t x (n: nat) :=
   | S n' => openall (open' t x n') x n'
   end.
 
-Variable x: logicalrelations.ident.
-Variable y: logicalrelations.ident.
+Variable x: Stlc.ident.
+Variable y: Stlc.ident.
 
 (* Eval unfold openall) in (openall (tApp (^9) (^10)) x 10). *)
 
